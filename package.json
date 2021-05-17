@@ -1,11 +1,16 @@
 {
   "name": "riot-express-todo-list",
   "version": "1.0.0",
+  "private": "true",
   "description": "",
   "main": "app.js",
   "scripts": {
     "test": "exit 0",
     "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://v8.googlecode.com/svn/trunk/"
   },
   "author": "Pedro Narciso García Revington <p.revington@gmail.com>",
   "license": "MIT",
@@ -14,6 +19,6 @@
     "express": "^4.14.0",
     "jade": "^1.11.0",
     "node-cmd": "^3.0.0",
-    "node-ssh": "^5.1.2"
+    "node-ssh": "^10.0.0"
   }
 }
